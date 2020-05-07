@@ -16,7 +16,7 @@ vector<int> mergeTwoSortedArrays(vector<int> Array1 , vector<int> Array2){
   while(Array1[Array1Position] || Array2[Array2Position]){
     i++;
     cout<<Array1[Array1Position]<<" "<<Array2[Array2Position] <<endl;
-    if()
+    if()  // problem needs fix
     if(Array1[Array1Position] < Array2[Array2Position])){
       mergedSortedArray.push_back(Array1[Array1Position]);
       Array1Position++;
