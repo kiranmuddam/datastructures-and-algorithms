@@ -14,7 +14,7 @@ class BinarySearchTree{
     public:
     struct Node *root;
     void insert(int);
-    void search(int);
+    bool lookup(int);
     void inorderTraversal(Node *);
     BinarySearchTree(){
         root = NULL;
@@ -60,8 +60,25 @@ void BinarySearchTree::inorderTraversal(Node *ptr)
       inorderTraversal(ptr->right);
    }
 }
-void BinarySearchTree::search(int data){
-
+bool BinarySearchTree::lookup(int data){
+    if (root == NULL)
+    {
+        cout<<"Tree is empty"<<endl;
+        return false;
+        }
+    struct Node* currentNode = root;
+   while(currentNode){
+       if(data<currentNode->data){
+           currentNode = currentNode->left;
+       }
+       else if(data>currentNode->data){
+           currentNode = currentNode->right;
+       }
+       else if(data == currentNode->data){
+           return true;
+       }   
+   }
+   return false;
 }
 int main(){
     BinarySearchTree myTree;
@@ -69,6 +86,8 @@ int main(){
     myTree.insert(6);
     myTree.insert(10);
     myTree.insert(11);
+    cout<<myTree.lookup(6)<<endl;
+    cout<<myTree.lookup(100)<<endl;
     myTree.inorderTraversal(myTree.root);
     cout<<endl;
     BinarySearchTree myTree2;
@@ -80,5 +99,8 @@ int main(){
     myTree2.insert(8);
     myTree2.insert(11);
     myTree2.insert(10);
+    cout<<myTree2.lookup(7)<<endl;
+    cout<<myTree2.lookup(100)<<endl;
+    
     myTree2.inorderTraversal(myTree2.root);
 }
