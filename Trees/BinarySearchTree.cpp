@@ -15,6 +15,7 @@ class BinarySearchTree{
     struct Node *root;
     void insert(int);
     bool lookup(int);
+    bool remove(int);
     void inorderTraversal(Node *);
     BinarySearchTree(){
         root = NULL;
@@ -79,6 +80,9 @@ bool BinarySearchTree::lookup(int data){
        }   
    }
    return false;
+}
+bool BinarySearchTree::remove(int data){
+
 }
 int main(){
     BinarySearchTree myTree;
