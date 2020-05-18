@@ -31,7 +31,7 @@
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-6 | Queue using LinkedList | [C++](./Stacks-and-Queues/queueUsingLinkedList.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+6 | Queue using LinkedList | [C++](./Stacks-and-Queues/queueUsingLinkedlist.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
 7 | Stack using LinkedList | [C++](./Stacks-and-Queues/stackImplementation.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
 8 | Stack using STL | [C++](./Stacks-and-Queues/stackUsingSTL.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
 
