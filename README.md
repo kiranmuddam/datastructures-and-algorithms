@@ -5,7 +5,7 @@
 ##### LinkedIn Profile : [https://www.linkedin.com/in/kiranbabumuddam/](https://www.linkedin.com/in/kiranbabumuddam/)
 
 ## Data Structures
-## -------------------------------------------------
+## 
 
 ### Array
 
@@ -24,24 +24,35 @@
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+4 | LinkedList Implementation | [C++](./LinkedList/MySingleLinkedListImplementation.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+5 | LinkedList STL Implementation | [C++](./LinkedList/MySingleLinkedListSTLImplementation.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
 
 ### Stacks and Queues
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+6 | Queue using LinkedList | [C++](./Stacks-and-Queues/queueUsingLinkedList.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+7 | Stack using LinkedList | [C++](./Stacks-and-Queues/stackImplementation.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+8 | Stack using STL | [C++](./Stacks-and-Queues/stackUsingSTL.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
 
 ### Trees
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+9 | Binary Search Tree | [C++](./Trees/BinarySearchTree.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
 
 ### Graphs
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
-3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+
+## Algorithms
+## 
+
+### Recursion
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+1 | Factorial | [C++](./Recursion/Factorial.cpp)  | _O(n)_       | _O(1)_          | Easy         |||
 
 
