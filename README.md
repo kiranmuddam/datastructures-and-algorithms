@@ -4,6 +4,8 @@
 
 ##### LinkedIn Profile : [https://www.linkedin.com/in/kiranbabumuddam/](https://www.linkedin.com/in/kiranbabumuddam/)
 
+# Array
+
 ## Array
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
@@ -16,3 +18,29 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+
+## LinkedLists
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+
+## Stacks and Queues
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+
+## Trees
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+
+## Graphs
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+3 | First recurring integer | [C++](./Hash-Tables/FirstRecurringIntegerInArray.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
+
+
