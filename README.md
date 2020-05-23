@@ -54,5 +54,6 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 1 | Factorial | [C++](./Recursion/Factorial.cpp)  | _O(n)_       | _O(1)_          | Easy         |||
+2 | Fibonacci | [C++](./Recursion/Fibonacci.cpp)  | _O(n)_       | _O(1)_          | Easy         |||
 
 
