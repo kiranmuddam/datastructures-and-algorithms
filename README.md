@@ -58,3 +58,10 @@
 3 | Reverse String | [C++](./Recursion/reverseString.cpp)  | _O(n)_       | _O(1)_          | Easy         |||
 
 
+### Sorting Algorithms
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+1 | Bubble Sort | [C++](./sorting/bubbleSort.cpp)  | _O(n^2)_       | _O(1)_          | Easy         |||
+
+
