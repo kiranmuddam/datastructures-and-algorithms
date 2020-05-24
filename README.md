@@ -63,5 +63,6 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 1 | Bubble Sort | [C++](./sorting/bubbleSort.cpp)  | _O(n^2)_       | _O(1)_          | Easy         |||
+2 | Selection Sort | [C++](./sorting/selectionSort.cpp)  | _O(n^2)_       | _O(1)_          | Easy         |||
 
 
