@@ -55,5 +55,6 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 1 | Factorial | [C++](./Recursion/Factorial.cpp)  | _O(n)_       | _O(1)_          | Easy         |||
 2 | Fibonacci | [C++](./Recursion/Fibonacci.cpp)  | _O(n) (iterative) / O(2^n)(recursive)_       | _O(1)_          | Easy         |||
+3 | Reverse String | [C++](./Recursion/reverseString.cpp)  | _O(n)_       | _O(1)_          | Easy         |||
 
 
