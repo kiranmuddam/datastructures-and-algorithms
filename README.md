@@ -64,5 +64,7 @@
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 1 | Bubble Sort | [C++](./sorting/bubbleSort.cpp)  | _O(n^2)_       | _O(1)_          | Easy         |||
 2 | Selection Sort | [C++](./sorting/selectionSort.cpp)  | _O(n^2)_       | _O(1)_          | Easy         |||
+3 | Insertion Sort | [C++](./sorting/InsertionSort.cpp)  | _O(n^2)_       | _O(1)_          | Easy         |||
+4 | Merge Sort | [C++](./sorting/mergeSort.cpp)  | _O(nlogn)_       | _O(n)_          | Medium         |||
 
 
