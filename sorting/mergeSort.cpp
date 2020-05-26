@@ -1,3 +1,4 @@
+//TO-DO Refactor the code using vector instead of arrays.
 #include<iostream>
 #include<vector>
 using namespace std;
