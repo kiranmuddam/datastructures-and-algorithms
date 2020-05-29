@@ -67,7 +67,7 @@
 3 | Insertion Sort | [C++](./sorting/insertionSort.cpp)  | _O(n^2)_       | _O(1)_          | Easy         |||
 4 | Merge Sort | [C++](./sorting/mergeSort.cpp)  | _O(nlogn)_       | _O(n)_          | Medium         |||
 5 | Quick Sort | [C++](./sorting/quickSort.cpp)  | _O(nlogn)/O(n^2)_       | _O(logn)_          | Medium         |||
-6 | Radix Sort | [C++]()  | _O(nk)_       | _O(n+k)_          | Medium         |||
-7 | Counting Sort | [C++]()  | _O(n+k)_       | _O(k)_          | Medium         |||
+6 | Radix Sort | [C++](./sorting/radixSort.cpp)  | _O(nk)_       | _O(n+k)_          | Medium         |||
+7 | Counting Sort | [C++](./sorting/countingSort.cpp)  | _O(n+k)_       | _O(k)_          | Medium         |||
 
 
