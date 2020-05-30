@@ -70,4 +70,5 @@
 6 | Radix Sort | [C++](./sorting/radixSort.cpp)  | _O(nk)_       | _O(n+k)_          | Medium         |||
 7 | Counting Sort | [C++](./sorting/countingSort.cpp)  | _O(n+k)_       | _O(k)_          | Medium         |||
 
+### Searching Algorithms (BFS/DFS)
 
