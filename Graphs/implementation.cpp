@@ -2,6 +2,7 @@
 #include <vector>
 #include <list>
 #include <algorithm>
+#include <queue>
 
 using namespace std;
 
@@ -10,6 +11,8 @@ private:
     int vertices;
     vector<list<int> > array;
     vector<bool> visited;
+    queue<int> dfsQueue;
+
 public:
     Graph(int v) {
         array.resize(v);
@@ -49,6 +52,8 @@ public:
         for (it = array[at].begin(); it != array[at].end(); it++) {
             dfs(*it);
         }
+
+        visited.resize(vertices, false);
     }
 
     void dfsTraversal() {
@@ -56,6 +61,35 @@ public:
         for (int i = 0; i < vertices; i++) {
             dfs(i);
         }
+        cout << endl;
+    }
+
+    void bfs(int at) {
+        dfsQueue.push(at);
+        visited[at] = true;
+
+        while(!dfsQueue.empty()) {
+            int currNode = dfsQueue.front();
+            cout << currNode << ' ';
+            dfsQueue.pop();
+            list<int>::iterator it = array[currNode].begin();
+
+            for (it; it != array[currNode].end(); it++) {
+                if (!visited[*it]) {
+                    dfsQueue.push(*it);
+                    visited[*it] = true;
+                }
+            }
+            
+        }
+    }
+
+    void bfsTraversal() {
+        cout << "BFS Traversal" << endl;
+        for (int i = 0; i < vertices; i++) {
+            bfs(i);
+        }
+        cout << endl;
     }
 };
 
@@ -68,6 +102,7 @@ int main() {
     cout << endl;
     g.printGraph();
     g.dfsTraversal();
+    g.bfsTraversal();
     cout << endl;
     return 0;
 }
