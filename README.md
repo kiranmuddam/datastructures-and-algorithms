@@ -45,6 +45,9 @@
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
+10 | Graph Implementation Adjacency List | [C++](./Graphs/implementation.cpp) | ... | ... | Graph |||
+11 | Graph DFS Traversal | [C++](./Graphs/implementation.cpp) | ... | ... | Graph, DFS |||
+12 | Graph BFS Traversal | [C++](./Graphs/implementation.cpp) | ... | ... | Graph, BFS |||
 
 ## Algorithms
 ## 
