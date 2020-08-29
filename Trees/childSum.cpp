@@ -6,15 +6,17 @@
 
 using namespace std;
 
-class Graph {
+class Tree {
 private:
     int vertices;
     vector<list<int> > array;
+    vector<int> weights;
     vector<bool> visited;
     queue<int> dfsQueue;
 public:
-    Graph(int v) {
+    Tree(int v) {
         array.resize(v);
+        weights.resize(v);
         vertices = v;
         visited.resize(v, false);
     }
@@ -24,8 +26,8 @@ public:
             array[source].push_front(destination);
     }
 
-    void printGraph() {
-        cout << "Adjacency List of Directed Graph:" <<endl;
+    void printTree() {
+        cout << "Adjacency List of Tree:" <<endl;
         list<int>::iterator temp;
         for(int i=0; i<vertices; i++) {
             cout << "|" << i << "| => ";
@@ -89,18 +91,44 @@ public:
         }
         cout << endl;
     }
+
+    void addWeigths() {
+        for (int i = 0; i < vertices; i++) {
+            cout << "Enter Weight for " << i << " Node : ";
+            cin >> weights[i]; 
+        }
+    }
+
+    int findSum() {
+        int sum = 0;
+        for (int i = 0; i < vertices; i++) {
+            if (array[i].empty()) {
+                sum += weights[i];
+            }
+        }
+        cout << "Sum of leaf nodes is: " << sum << endl;
+        return sum;
+    }
 };
 
 int main() {
-    Graph g(7);
+    Tree g(11);
+    g.addEdge(0, 1);
+    g.addEdge(0, 2);
     g.addEdge(1, 3);
-    g.addEdge(1, 2);
+    g.addEdge(1, 4);
     g.addEdge(2, 5);
-    g.addEdge(2, 4);
+    g.addEdge(2, 6);
+    g.addEdge(2, 7);
+    g.addEdge(3, 8);
+    g.addEdge(3, 9);
+    g.addEdge(6, 10);
     cout << endl;
-    g.printGraph();
+    g.printTree();
     g.dfsTraversal();
     g.bfsTraversal();
+    g.addWeigths();
+    g.findSum();
     cout << endl;
     return 0;
 }
