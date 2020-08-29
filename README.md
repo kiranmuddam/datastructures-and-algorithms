@@ -40,7 +40,7 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 9 | Binary Search Tree | [C++](./Trees/BinarySearchTree.cpp)  | _O(n)_       | _O(n)_          | Easy         |||
-* | Tree Child Nodes Sum | [C++](./Trees/childSum.cpp) | ... | ... | Easy |||
+13 | Tree Child Nodes Sum | [C++](./Trees/childSum.cpp) | ... | ... | Easy |||
 
 ### Graphs
 
