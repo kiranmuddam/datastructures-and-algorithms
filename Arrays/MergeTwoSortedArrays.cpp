@@ -1,38 +1,47 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
+
 using namespace std;
-vector<int> mergeTwoSortedArrays(vector<int> Array1 , vector<int> Array2){
-  vector<int> mergedSortedArray;
-  int Array1Position=0;
-  int Array2Position=0;
+
+vector <int> MergeTwoSortedArrays(vector<int> Array1, vector<int> Array2){
+  vector <int> MergedSortedArray;
   int i=0;
-  //check inputs
-  if(Array1.size()==0){
+  int j=0;
+  //Check Input
+  if (Array1.size()==0){
     return Array2;
   }
-  if(Array2.size()==0){
+  if (Array2.size()==0){
     return Array1;
   }
-  while(Array1[Array1Position] || Array2[Array2Position]){
-    i++;
-    cout<<Array1[Array1Position]<<" "<<Array2[Array2Position] <<endl;
-    if()  // problem needs fix
-    if(Array1[Array1Position] < Array2[Array2Position])){
-      mergedSortedArray.push_back(Array1[Array1Position]);
-      Array1Position++;
+
+  while (i<Array1.size() && j<Array2.size()){
+    if (Array1[i] < Array2[j]){
+      MergedSortedArray.push_back(Array1[i]);
+      i++;
     }
     else{
-      mergedSortedArray.push_back(Array2[Array2Position]);
-      Array2Position++;
+      MergedSortedArray.push_back(Array2[j]);
+      j++;
     }
   }
-  return mergedSortedArray;
+  while (i<Array1.size()){
+    MergedSortedArray.push_back(Array1[i]);
+    i++;
+  }
+  while (j<Array2.size()){
+    MergedSortedArray.push_back(Array2[j]);
+    j++;
+  }
+  return MergedSortedArray;
+
 }
-int main(){
-  vector<int> Array1 = {1,3,100,15,7,9,92};
+
+int main() {
+  vector<int> Array1 = {1,3,7,9,15,92,100};
   vector<int> Array2 = {2,4,6,8,10,11};
-  vector<int> mergedSortedArray = mergeTwoSortedArrays(Array1,Array2);
-  for(int i=0;i<mergedSortedArray.size();i++){
-    cout<<mergedSortedArray[i]<<" ";
+  vector<int> MergedSortedArray = MergeTwoSortedArrays(Array1,Array2);
+  for (int i=0;i<MergedSortedArray.size();i++){
+    cout<<MergedSortedArray.at(i)<<",";
   }
 }
