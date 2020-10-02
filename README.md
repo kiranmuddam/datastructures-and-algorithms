@@ -79,4 +79,4 @@
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Tag          | Note| 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|-----|
 1 | Linear Search | [C++](./searching/linearSearch.cpp)  | _O(n)_       | _O(1)_          | Easy         |||
-
+2 | Binary Search | [C++](./searching/binarySearch.cpp) | _O(logn)_    | _O(1)_          | Easy         |||
