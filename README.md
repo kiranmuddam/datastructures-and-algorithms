@@ -2,7 +2,7 @@
 
 ##### Author : Kiran Babu Muddam 
 
-##### LinkedIn Profile : [https://www.linkedin.com/in/kiranbabumuddam/](https://www.linkedin.com/in/kiranbabumuddam/)
+##### LinkedIn Profile : [https://www.linkedin.com/in/kiranmuddam/](https://www.linkedin.com/in/kiranmuddam/)
 
 ## Data Structures
 ## 
